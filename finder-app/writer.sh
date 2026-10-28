@@ -13,7 +13,7 @@ content="$2"
 dir=$(dirname "$path_to_file")
 
 if ! mkdir -p "$dir"; then
-	echo "ERROR: Cannot creat '$dir' directory"
+	echo "ERROR: Cannot create '$dir' directory"
 	exit 1
 fi
 
